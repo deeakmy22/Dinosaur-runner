@@ -1,0 +1,61 @@
+:root {
+    --cell-size: 100px;
+}
+
+body {
+    align-items: center;
+    background-color: #ccf2ff;
+    display: flex;
+}
+
+.container {
+    background-color: #FFF;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0px;
+}
+
+.hidden { 
+    display: none;
+}
+
+.hide-canvas {
+    position: absolute;
+    top: -1000px;
+}
+
+.startBtn, .restartBtn {
+    border: 1px solid #0000ff;
+    border-radius: 10px;
+    background-color: #0000ff;
+    color: #FFF;
+    font-size: 20px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    padding: 10px 20px;
+}
+
+.canvas {
+    display: block;
+    background-color: #F4F4F4;
+    border: 4px solid #ccc;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.time {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.gameOverArea{
+    background-color: #41ff33;
+    border-radius: 20px;
+    padding-top: 20px;
+    width: 80%;
+} 
